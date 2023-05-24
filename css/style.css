@@ -120,14 +120,14 @@ main {
 .header__btn{
     color: black;
 }
-.header__btn:before{
+/* .header__btn:before{
     font-family: 'icomoon';
     content: "\e910";
     position: absolute;
     left: 22px;
     color: black;
     
-}
+} */
 .listen__menu ul ul{
     display: none;
     position: absolute;
@@ -374,8 +374,13 @@ main {
     position: relative;
     margin: 10px;
     box-shadow: 0px 7px 14.3px 2.7px rgba(91, 89, 89, 0.14) ;
-    
+    transition: .3s;
 }
+
+.services__item:hover {
+    scale: 1.05;
+}
+
 .services__item-title{
     font-family: "Open Sans", sans-serif;
     color: black;
@@ -893,11 +898,33 @@ main {
 
 .bg{
     background-image: url(../img/tina_about_page.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-color: #1b1c1e;
+    background-color: #010101;
     background-position: top center;
   
     
+}
+
+.types {
+    margin-top: 50px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.types li {
+    margin: 25px 0;
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+.contacts__list__title {
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 18px;
+}
+.types__title {
+    font-weight: 600;
+    font-size: 25px;
 }
 .bio__title{
     max-height: 1000px;
@@ -916,7 +943,7 @@ main {
     font-size: 16px;
     letter-spacing: 3.5px;
     line-height: 30px;
-    color: #a8a8a8;
+    color: #e6e6e6;
     font-weight: 100;
     padding-bottom: 100px;
 }
