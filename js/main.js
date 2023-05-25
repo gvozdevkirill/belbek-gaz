@@ -40,14 +40,12 @@ function checkForm(el){
         return false
     }
 }
-$(document).ready(function(){
-    $("#phone").mask("+380 (99) 999 99 99")
-})
-function UA(){
-$(document).ready(function(){
-    $("#phone").mask("+380 (99) 999 99 99")
-})
-}
+RU();
+// function UA(){
+// $(document).ready(function(){
+//     $("#phone").mask("+380 (99) 999 99 99")
+// })
+// }
 function RU(){
     $(document).ready(function(){
         $("#phone").mask("+7 (999) 999-99-99")

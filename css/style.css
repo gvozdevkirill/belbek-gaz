@@ -350,6 +350,7 @@ main {
 .news__btn:hover{
     background-color: #014B7E;
     color: #d8d8d5;
+    cursor: pointer;
 }
 .services__items{
     margin-top: 15px;
@@ -792,7 +793,7 @@ main {
 }
 .footer__mapa{
     max-width: 630px;
-    height: 200px;
+    height: 240px;
     width: 100%;
 }
 .footer__mapa iframe{
