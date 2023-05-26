@@ -1,9 +1,9 @@
-document.getElementById('physical-btn').addEventListener('click', function (e) {
+document.getElementById('physical-btn')?.addEventListener('click', function (e) {
     document.getElementById('physical').classList.remove('none');
     document.getElementById('jurical').classList.add('none');
   })
 
-document.getElementById('jurical-btn').addEventListener('click', function (e) {
+document.getElementById('jurical-btn')?.addEventListener('click', function (e) {
     document.getElementById('physical').classList.add('none');
     document.getElementById('jurical').classList.remove('none');
   })
