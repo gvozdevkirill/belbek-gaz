@@ -903,10 +903,15 @@ main {
     background-repeat: no-repeat;
     background-color: #010101;
     background-position: top center;
-  
     
 }
 
+.about-bg {
+    padding-bottom: 50px;
+}
+.footer__content-about {
+    margin-top: 0;
+}
 .types {
     margin-top: 50px;
     color: #fff;
