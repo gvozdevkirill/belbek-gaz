@@ -146,7 +146,6 @@
         display: block;
         font-size: 30px;
         margin-right: 25px;
-        padding-bottom: 30px;
     }
     
     .menu ul{
@@ -154,6 +153,7 @@
         position: absolute;
         left: 0;
         right: 0;
+        top: 125px;
         text-align: center;
         z-index: 50;
     }
@@ -163,7 +163,8 @@
     }
     .menu a{
         display: block;
-        background-color: #a18574;
+        background-color: #014B7E;
+        color: #fff;
         line-height: 45px;
     }
     .menu li + li{
